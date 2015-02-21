@@ -1,0 +1,29 @@
+<slide class="title-slide segue nobackground">
+  {{# page.logo }}
+  <aside class="gdbar">
+	   <p> </p>
+ </aside>
+  {{/ page.logo }}
+  <hgroup class="auto-fadein">
+    <div style='text-align: center;'>
+	<img src="{{page.url.assets}}/img/{{{ page.logo }}}" width="400" height="250">
+	</div>
+	<h1>{{ page.title }}</h1>
+    <h2>{{ page.subtitle }}</h2>
+    <p style="text-align: right;"> {{ page.author }} <img src="assets/img/JAIME211.JPG" width="50" height="50"> <br/>{{ page.job }}</p>
+	<a href="https://jaimelaorden.shinyapps.io/Project/" style="font-size:30%;text-align: center;">Visit our Scary Factor Predictor</a> 
+	
+  </hgroup>
+  {{# page.github }}
+    <a href="https://github.com/{{user}}/{{repo}}/zipball/gh-pages" class="example">
+     Download
+    </a>
+  {{/ page.github }}
+  <article></article>  
+  {{# page.license }}    
+  <footer class = 'license'>
+     <li> Please note all data and results are simulated, no real data used in this "slidify" exercise" </li>
+	 <li> Picture from "http://lenguajecorporal.org" </li>
+  </footer>
+  {{/ page.license }}
+</slide>
